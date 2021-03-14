@@ -1,0 +1,101 @@
+sans serif/retro fonts /bold black outlines/ grid layouts
+
+html{
+	box-sizing: border-box;
+}
+
+
+body{
+
+	top:0;
+	letter-spacing: 0.1em;
+	font-family: 'Lora', sans-serif;
+	
+
+	
+}
+
+
+header{ 
+	font-size: 1.8em;
+	color: black;
+	font-weight: 900;
+}
+
+article{
+	
+	font-size: 1.2em;
+	color: black;
+	font-weight: 700;
+}
+
+
+footer{
+	text-align: center;
+	color: black;
+	margin-top: 2%;
+}
+
+
+
+
+.hometag{
+	font-size: 1.3em;
+	position: relative;
+	padding-left:50px;
+	color: white;
+
+}
+
+.nav-link {
+	color: white;
+}
+
+.navbar{
+	
+	position: relative;
+	border: solid 5px black;
+	background-color: #282846;
+
+}
+
+
+.fa{
+	padding: 2%;
+	color: black;
+	font-size: 30px;
+}
+
+
+#projects-btn{
+	display:flex;
+	background-color: #282846;
+	margin-top: 15%;
+
+}
+
+.me{
+    height: auto; 
+    width: auto; 
+    max-width: 180px; 
+    border:solid;
+    border-width: 5px;
+}
+
+.footer-tag {
+	color: black;
+}
+
+.article-container, .image-container {
+padding-top:  4%;
+padding:8%;
+}
+
+.row{
+padding-top: 4%;
+}
+
+
+Media Queries
+
+

@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="stle.css">
+  <link rel="stylesheet" type="text/css" href="stle.css">
 
     <title>Neil Chadwick | Web Developer</title>
   </head>
@@ -28,7 +28,7 @@
     <a class = "navbar-brand hometag" href = "index.html">Neil Chadwick</a>
     
 
-      <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -46,7 +46,28 @@
       </div>
   </nav>
 
+  <!--Contact-->
+  <main class = "form-main">
 
+  <form name="contact" method="POST" data-netlify="true">
+  <div class="form-group">
+     <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</main>
 
 <!-- Footer -->
 <footer class="footer">

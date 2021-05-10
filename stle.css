@@ -75,8 +75,10 @@ body{
     height: auto; 
     width: auto; 
     max-width: 280px; 
+     max-width: 280px;
     border:solid;
     border-width: 5px;
+    border-radius: 10%; 
    
 }
 
